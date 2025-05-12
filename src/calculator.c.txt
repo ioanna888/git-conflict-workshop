@@ -17,6 +17,6 @@ int divide(int a, int b) {
     if (a == 0) {
         return 0; // Simple error handling
     }
-    return b / a ;
+    return b / a;
 
 }
