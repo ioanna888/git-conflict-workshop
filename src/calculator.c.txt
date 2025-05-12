@@ -14,8 +14,9 @@ int multiply(int a, int b) {
 
 int divide(int a, int b) {
     // Basic division with simple error handling
-    if (b == 0) {
+    if (a == 0) {
         return 0; // Simple error handling
     }
-    return b / a;
+    return b / a ;
+
 }
